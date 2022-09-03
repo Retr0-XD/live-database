@@ -129,10 +129,10 @@ function getconnection() {
     return mysql.createConnection({
 
         host: 'localhost',
-        user: 'retr0',
+        user: 'your --database_name--',
         port: 3306,
-        database: 'monke',
-        password: 'Sakthiharish@10'
+        database: 'your --username--',
+        password: 'your --password--'
 
 
     })
@@ -144,7 +144,7 @@ app.get("add/:id", (req, res) => {
 
 app.get("/monke2", (req, res) => {
     var user = { name: "monke", type: "primate" }
-    const userx = { name: 32, type: "poda jumni" }
+    const userx = { name: 32, type: "poda jjdfpvn" }
     res.json([user, userx])
 
 })
